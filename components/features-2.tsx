@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 
 export default function Features() {
   return (
-    <section className="py-16 md:py-32">
+    <section className="py-16  md:py-32 mt:30">
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
@@ -15,7 +15,7 @@ export default function Features() {
             to elevate your videos.
           </p>
         </div>
-        <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 [--color-background:var(--color-muted)] [--color-card:var(--color-muted)] *:text-center md:mt-16 dark:[--color-muted:var(--color-zinc-900)]">
+        <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-30 grid max-w-sm gap-6 [--color-background:var(--color-muted)] [--color-card:var(--color-muted)] *:text-center md:mt-16 dark:[--color-muted:var(--color-zinc-900)]">
           <Card className="group border-0 shadow-none hover:shadow-lg transition-shadow duration-300">
             <CardHeader className="pb-3">
               <CardDecorator>

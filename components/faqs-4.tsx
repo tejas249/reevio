@@ -7,28 +7,28 @@ export default function FAQsFour() {
     const faqItems = [
         {
             id: 'item-1',
-            question: 'How long does shipping take?',
-            answer: 'Standard shipping takes 3-5 business days, depending on your location. Express shipping options are available at checkout for 1-2 business day delivery.',
+            question: ': How do I start a project?',
+            answer: 'Just send us your footage and a brief. We’ll take care of the rest! Our team will review your materials and get back to you with a timeline and quote within 24-48 hours.',
         },
         {
             id: 'item-2',
-            question: 'What payment methods do you accept?',
-            answer: 'We accept all major credit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, and Google Pay. For enterprise customers, we also offer invoicing options.',
+            question: 'What types of videos do you edit?',
+            answer: 'We specialize in YouTube, brand promos, reels, event videos, and ads. If you have a different type of project in mind, feel free to reach out and we can discuss how we can help!',
         },
         {
             id: 'item-3',
-            question: 'Can I change or cancel my order?',
-            answer: 'You can modify or cancel your order within 1 hour of placing it. After this window, please contact our customer support team who will assist you with any changes.',
+            question: 'What’s your turnaround time?',
+            answer: 'Typically within 3–5 days depending on project scope. For rush projects, we offer expedited services at an additional cost. Just let us know your deadline when you contact us.',
         },
         {
             id: 'item-4',
-            question: 'Do you ship internationally?',
-            answer: "Yes, we ship to over 50 countries worldwide. International shipping typically takes 7-14 business days. Additional customs fees may apply depending on your country's import regulations.",
+            question: 'Do you offer revisions?',
+            answer: "Yes, up to 3 rounds of revisions are included. We want to make sure you're happy with the final product. Additional revisions can be accommodated for a small fee.",
         },
         {
             id: 'item-5',
-            question: 'What is your return policy?',
-            answer: 'We offer a 30-day return policy for most items. Products must be in original condition with tags attached. Some specialty items may have different return terms, which will be noted on the product page.',
+            question: 'Can you help with motion graphics or captions?',
+            answer: 'Absolutely! We offer full-service post-production including color grading, sound design, and motion graphics.',
         },
     ]
 
@@ -62,14 +62,18 @@ export default function FAQsFour() {
                         ))}
                     </Accordion>
 
-                    <p className="text-muted-foreground mt-6 px-8">
-                        Can't find what you're looking for? Contact our{' '}
-                        <Link
-                            href="#"
-                            className="text-primary font-medium hover:underline">
-                            customer support team
-                        </Link>
-                    </p>
+                    <div className="mt-6 px-4">
+                        <div className="mx-auto max-w-3xl rounded-lg border border-muted/20 bg-muted/50 dark:bg-muted/40 p-4 shadow-sm">
+                            <p className="text-muted-foreground m-0 text-sm md:text-base">
+                                Can't find what you're looking for? Fill out the form —
+                                <Link
+                                    href="/form"
+                                    className="ml-5 mt-4 inline-block rounded-md bg-primary px-3 py-1 text-sm font-medium text-white hover:opacity-90">
+                                    Go to Form
+                                </Link>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
