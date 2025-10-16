@@ -4,10 +4,10 @@ import Image from 'next/image'
 export const Logo = ({ className }: { className?: string }) => {
   return (
     <Image
-      src="/logo.png"
+      src="/logo.jpg"
       alt="Logo"
-      width={120}
-      height={40}
+      width={40}
+      height={20}
       className={className}
       priority
     />

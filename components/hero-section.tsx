@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { TextEffect } from '@/components/ui/text-effect'
 import { AnimatedGroup } from '@/components/ui/animated-group'
 import { HeroHeader } from './header'
+import { Video } from './ui/video'
 
 const transitionVariants = {
     item: {
@@ -30,7 +31,7 @@ const transitionVariants = {
 export default function HeroSection() {
     return (
         <>
-            <HeroHeader />
+           <HeroHeader/>
             <main className="overflow-hidden h-screen">
                 <div
                     aria-hidden
@@ -90,10 +91,10 @@ export default function HeroSection() {
                                         <span className="text-foreground text-sm">Introducing Reevio for your editing service</span>
                                         <span className="dark:border-background block h-4 w-0.5 border-l bg-white dark:bg-zinc-700"></span>
 
-                                        <div className="bg-background group-hover:bg-muted size-6 overflow-hidden rounded-full duration-500">
+                                        <div className="bg-background group-hover:bg-muted size-6 overflow-hidden rounded-full duration-500 sm:size-7">
                                             <div className="flex w-12 -translate-x-1/2 duration-500 ease-in-out group-hover:translate-x-0">
                                                 <span className="flex size-6">
-                                                    <ArrowRight className="m-auto size-3" />
+                                                    <ArrowRight className="m-auto size-3 sm:ml-0" />
                                                 </span>
                                                 <span className="flex size-6">
                                                     <ArrowRight className="m-auto size-3" />
@@ -132,14 +133,14 @@ From YouTube edits to cinematic brand films — Reevio helps creators and brands
                                         },
                                         ...transitionVariants,
                                     }}
-                                    className="mt-18 flex flex-col items-center justify-center gap-2 md:flex-row">
+                                    className="mt-10 flex flex-col items-center justify-center gap-2 md:flex-row">
                                     <div
                                         key={1}
                                         className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
                                         <Button
                                             asChild
                                             size="lg"
-                                            className="rounded-xl px-5 text-base">
+                                            className="rounded-xl px-5 text-base sm:hidden md:inline-flex h-10.5">
                                             <Link href="/form">
                                                 <span className="text-nowrap">Contact now!</span>
                                             </Link>
@@ -158,11 +159,9 @@ From YouTube edits to cinematic brand films — Reevio helps creators and brands
                                 </AnimatedGroup>
                             </div>
                         </div>
-
-                        
                     </div>
-                </section>
-                
+                   
+                </section>                
             </main>
         </>
     )
