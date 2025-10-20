@@ -56,7 +56,7 @@ export default function PricingSection() {
           {plans.map((plan) => (
             <Card
               key={plan.name}
-              className={`rounded-2xl shadow-lg border hover:shadow-2xl ${
+              className={`rounded-2xl shadow-lg border hover:shadow-2xl border-purple-400 ${
                 plan.highlighted
                   ? "border-zinc-800 bg-zinc-900 text-white scale-105"
                   : "border-zinc-200 bg-white dark:bg-zinc-800 dark:border-zinc-700"

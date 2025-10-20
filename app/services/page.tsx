@@ -1,9 +1,10 @@
+import ServicesSection from '@/components/ServicesSection'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>
-        <h1> We are at the services section </h1>
+    <div className='min-h-screen'>
+        <ServicesSection/>
     </div>
   )
 }
