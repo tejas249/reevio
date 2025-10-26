@@ -14,10 +14,7 @@ const links = [
         title: 'Pricing',
         href: '/pricing',
     },
-    {
-        title: 'Pricing',
-        href: '#',
-    },
+
     {
         title: 'About',
         href: '/about',
