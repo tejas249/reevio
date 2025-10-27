@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/tejaskamble/Desktop/OwnGigs/agency/components/ContactForms.tsx"],"sourcesContent":["import React from 'react'\n\nconst ContactForms = () => {\n  return (\n    <div>\n        \n    </div>\n  )\n}\n\nexport default ContactForms"],"names":[],"mappings":";;;;;;AAEA,MAAM,eAAe;IACnB,qBACE,8QAAC;;;;;AAIL;uCAEe","debugId":null}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":["file:///Users/tejaskamble/Desktop/OwnGigs/agency/app/form/page.tsx"],"sourcesContent":["import ContactForms from \"@/components/ContactForms\";\n\nconst page = () => {\n  return (\n    <div>\n       <ContactForms/>\n    </div>\n  );\n};\n\nexport default page;\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,OAAO;IACX,qBACE,8QAAC;kBACE,cAAA,8QAAC,sKAAY;;;;;;;;;;AAGpB;uCAEe","debugId":null}}]
+}

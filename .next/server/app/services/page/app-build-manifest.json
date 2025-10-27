@@ -1,0 +1,24 @@
+{
+  "pages": {
+    "/services/page": [
+      "static/chunks/a9971_next_dist_bdda5e82._.js",
+      "static/chunks/Desktop_OwnGigs_agency_app_favicon_ico_mjs_6e8753e1._.js",
+      "static/chunks/[root-of-the-server]__80225c8b._.css",
+      "static/chunks/Desktop_OwnGigs_agency_7deefce2._.js",
+      "static/chunks/Desktop_OwnGigs_agency_app_layout_tsx_f0c8d35c._.js",
+      "static/chunks/a9971_next_dist_client_components_builtin_global-error_b8268363.js",
+      "static/chunks/a9971_268fe099._.js",
+      "static/chunks/Desktop_OwnGigs_agency_components_ServicesSection_tsx_566abc70._.js",
+      "static/chunks/Desktop_OwnGigs_agency_app_services_page_tsx_b8268363._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_a92bad93._.js",
+      "static/chunks/a9971_next_dist_compiled_react-dom_bf570e5b._.js",
+      "static/chunks/a9971_next_dist_compiled_next-devtools_index_b8588670.js",
+      "static/chunks/a9971_next_dist_compiled_08820c65._.js",
+      "static/chunks/a9971_next_dist_client_444fe9da._.js",
+      "static/chunks/a9971_next_dist_6d7179a5._.js",
+      "static/chunks/a9971_@swc_helpers_cjs_c53ae0ef._.js",
+      "static/chunks/Desktop_OwnGigs_agency_a0ff3932._.js",
+      "static/chunks/turbopack-Desktop_OwnGigs_agency_3b248dd5._.js"
+    ]
+  }
+}

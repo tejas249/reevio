@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/tejaskamble/Desktop/OwnGigs/agency/app/pricing/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst pricing = () => {\n  return (\n    <div>\n        <h1> we are at the pricing section </h1>\n        <PricingSection/>\n    </div>\n  )\n}\n\nexport default pricing"],"names":[],"mappings":";;;;;;AAEA,MAAM,UAAU;IACd,qBACE,8QAAC;;0BACG,8QAAC;0BAAG;;;;;;0BACJ,8QAAC;;;;;;;;;;;AAGT;uCAEe","debugId":null}}]
+}
