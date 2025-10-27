@@ -33,13 +33,25 @@ export default function ContactForms() {
     setError(null)
 
     try {
-      router.push("/submit")
+      const res = await fetch('/api/contacts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
+
+      const json = await res.json()
+
+      if (res.ok && json.success) {
+        // navigate to submit confirmation page
+        router.push('/submit')
+      } else {
+        setError(json?.error || 'Submission failed')
+      }
     } catch (err) {
       console.error(err)
-      setError("Something went wrong. Please try again.")
+      setError('Something went wrong. Please try again.')
     } finally {
       setLoading(false)
-    
     }
   }
 
@@ -76,9 +88,9 @@ export default function ContactForms() {
             className="mt-2 block w-full rounded-md border px-3 py-2 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100"
           >
             <option value="">Select a type</option>
-            <option value="promo">Promo,Teaser</option>
+            <option value="promo">Promo, Teaser</option>
             <option value="social">Reels/Shorts</option>
-            <option value="training">Tutorial,Youtube</option>
+            <option value="training">Tutorial, Youtube</option>
             <option value="other">Cinematic Videos</option>
           </select>
         </label>
@@ -117,6 +129,13 @@ export default function ContactForms() {
             {loading ? "Submitting…" : "Submit"}
           </button>
 
+          <div aria-live="polite" className="text-sm">
+            {error ? (
+              <span className="text-rose-600">{error}</span>
+            ) : (
+              <span className="text-muted-foreground">We will get back to you soon.</span>
+            )}
+          </div>
         </div>
       </form>
     </div>
