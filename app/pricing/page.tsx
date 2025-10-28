@@ -1,13 +1,12 @@
 import PricingSection from '@/components/PricingSection'
 import React from 'react'
 
-const pricing = () => {
+const Pricing = () => {
   return (
-    <div className='h-screen'>
-        <h1 className='font-bold text-4xl text-purple-700 justify-center mt-8 mb-10 text-center'>Prices for our Services</h1>
-         <PricingSection />
+    <div className="min-h-screen pt-24 px-4">
+      <PricingSection />
     </div>
   );
-}
+};
 
-export default pricing
+export default Pricing;

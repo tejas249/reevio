@@ -56,7 +56,7 @@ export default function ContactForms() {
   }
 
   return (
-    <div className="mx-auto max-w-xl px-4 mt-10">
+    <div className="mx-auto max-w-xl pt-30 px-4 mt-10">
       <form
         onSubmit={handleSubmit}
         className="bg-white/90 dark:bg-slate-900/80 ring-1 ring-black/5 dark:ring-white/5 rounded-lg p-6 shadow-lg backdrop-blur-sm"
