@@ -7,7 +7,7 @@ export default function FAQsFour() {
     const faqItems = [
         {
             id: 'item-1',
-            question: ': How do I start a project?',
+            question: 'How do I start a project?',
             answer: 'Just send us your footage and a brief. We’ll take care of the rest! Our team will review your materials and get back to you with a timeline and quote within 24-48 hours.',
         },
         {

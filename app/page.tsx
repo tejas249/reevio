@@ -3,15 +3,19 @@ import Features from "@/components/features-2";
 import FooterSection from "@/components/footer";
 import HeroSection from "@/components/hero-section";
 import StatsSection from "@/components/stats-2";
+import { BackgroundLines } from "@/components/ui/background-lines";
 
 export default function Home() {
   return (
     <div>
-      <HeroSection/>
+      <BackgroundLines>
+         <HeroSection/>
        <Features/>
        <StatsSection/>
       <FAQsFour/>
       <FooterSection/>
+      </BackgroundLines>
+     
     </div>
   );
 }
