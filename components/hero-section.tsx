@@ -9,15 +9,7 @@ import { Button } from "@/components/ui/button"
 import { TextEffect } from "@/components/ui/text-effect"
 import { HeroHeader } from "./header"
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 20, filter: "blur(10px)" },
-  visible: {
-    opacity: 1,
-    y: 0,
-    filter: "blur(0px)",
-    transition: { type: "spring", bounce: 0.3, duration: 1.2 },
-  },
-}
+
 
 export default function HeroSection() {
   return (
@@ -94,7 +86,7 @@ export default function HeroSection() {
                   preset="fade-in-blur"
                   speedSegment={0.3}
                   as="h1"
-                  className="mx-auto mt-10 max-w-4xl text-balance text-5xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[5.25rem]"
+                  className="mx-auto flex mt-10 max-w-4xl text-balance text-5xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[5.25rem]"
                 >
                   Edit. Create. Captivate.
                 </TextEffect>

@@ -180,7 +180,8 @@ const createVariantsWithTransition = (
 ): Variants => {
   if (!transition) return baseVariants;
 
-  const { exit: _, ...mainTransition } = transition;
+  // properly remove `exit` from the transition
+  const { exit, ...mainTransition } = transition;
 
   return {
     ...baseVariants,
@@ -205,6 +206,7 @@ const createVariantsWithTransition = (
     },
   };
 };
+
 
 export function TextEffect({
   children,
