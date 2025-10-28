@@ -1902,6 +1902,10 @@
     fill: currentColor;
   }
 
+  .object-cover {
+    object-fit: cover;
+  }
+
   .p-0\.5 {
     padding: calc(var(--spacing) * .5);
   }

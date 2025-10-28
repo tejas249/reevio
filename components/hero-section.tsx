@@ -1,14 +1,28 @@
-import React from 'react'
+"use client"
+import React, { ReactNode } from 'react'
 import Link from 'next/link'
-import { ArrowRight, ChevronRight } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
 import { TextEffect } from '@/components/ui/text-effect'
 import { AnimatedGroup } from '@/components/ui/animated-group'
 import { HeroHeader } from './header'
+import { Variants } from 'framer-motion'
 
+type AnimatedGroupProps = {
+  children: ReactNode;
+  className?: string;
+  variants?: {
+    // allow Variants or a looser shape so transition objects (e.g. { type: 'spring', ... })
+    // are accepted without strict mismatches from framer-motion's types
+    container?: Variants | any;
+    item?: Variants | any;
+  };
+  preset?: any;
+  as?: React.ElementType;
+  asChild?: React.ElementType;
+};
 
-const transitionVariants = {
+const transitionVariants: { item: Variants } = {
     item: {
         hidden: {
             opacity: 0,
@@ -20,7 +34,7 @@ const transitionVariants = {
             filter: 'blur(0px)',
             y: 0,
             transition: {
-                type: 'spring',
+                type: 'spring' as const,
                 bounce: 0.3,
                 duration: 1.5,
             },
@@ -68,12 +82,11 @@ export default function HeroSection() {
                                 },
                             }}
                             className="mask-b-from-35% mask-b-to-90% absolute inset-0 top-56 -z-20 lg:top-32">
-                            <Image
+                            {/* remote background image — use standard img to avoid Next/Image remote config during build */}
+                            <img
                                 src="https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120"
                                 alt="background"
-                                className="hidden size-full dark:block"
-                                width="3276"
-                                height="4095"
+                                className="hidden size-full dark:block w-full h-full object-cover"
                             />
                         </AnimatedGroup>
 

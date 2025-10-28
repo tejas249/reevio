@@ -13,7 +13,7 @@ if (!process.env.MONGODB_URI) {
 const uri = process.env.MONGODB_URI
 const options = {}
 
-let client = new MongoClient(uri, options)
+const client = new MongoClient(uri, options)
 let clientPromise: Promise<MongoClient>
 
 if (process.env.NODE_ENV === 'development') {
