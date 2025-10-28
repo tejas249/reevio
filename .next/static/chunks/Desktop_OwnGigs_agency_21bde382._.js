@@ -1620,6 +1620,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/OwnGigs/agency/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/OwnGigs/agency/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/OwnGigs/agency/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/Desktop/OwnGigs/agency/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-client] (ecmascript) <export default as ArrowRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/OwnGigs/agency/components/ui/button.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$components$2f$ui$2f$text$2d$effect$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/OwnGigs/agency/components/ui/text-effect.tsx [app-client] (ecmascript)");
@@ -1633,19 +1634,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency
 ;
 ;
 ;
-const transitionVariants = {
+;
+/* simplified transition variants */ const transitionVariants = {
     item: {
         hidden: {
             opacity: 0,
-            filter: 'blur(12px)',
+            filter: "blur(12px)",
             y: 12
         },
         visible: {
             opacity: 1,
-            filter: 'blur(0px)',
+            filter: "blur(0px)",
             y: 0,
             transition: {
-                type: 'spring',
+                type: "spring",
                 bounce: 0.3,
                 duration: 1.5
             }
@@ -1657,8 +1659,8 @@ function HeroSection() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$components$2f$header$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["HeroHeader"], {}, void 0, false, {
                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                lineNumber: 48,
-                columnNumber: 12
+                lineNumber: 27,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                 className: "overflow-hidden h-screen",
@@ -1671,28 +1673,28 @@ function HeroSection() {
                                 className: "w-140 h-320 -translate-y-87.5 absolute left-0 top-0 -rotate-45 rounded-full bg-[radial-gradient(68.54%_68.72%_at_55.02%_31.46%,hsla(0,0%,85%,.08)_0,hsla(0,0%,55%,.02)_50%,hsla(0,0%,45%,0)_80%)]"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                lineNumber: 53,
-                                columnNumber: 21
+                                lineNumber: 33,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "h-320 absolute left-0 top-0 w-60 -rotate-45 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.06)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)] [translate:5%_-50%]"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                lineNumber: 54,
-                                columnNumber: 21
+                                lineNumber: 34,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "h-320 -translate-y-87.5 absolute left-0 top-0 w-60 -rotate-45 bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.04)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)]"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                lineNumber: 55,
-                                columnNumber: 21
+                                lineNumber: 35,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                        lineNumber: 50,
-                        columnNumber: 17
+                        lineNumber: 29,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1716,7 +1718,7 @@ function HeroSection() {
                                                 opacity: 1,
                                                 y: 0,
                                                 transition: {
-                                                    type: 'spring',
+                                                    type: "spring",
                                                     bounce: 0.3,
                                                     duration: 2
                                                 }
@@ -1724,27 +1726,36 @@ function HeroSection() {
                                         }
                                     },
                                     className: "mask-b-from-35% mask-b-to-90% absolute inset-0 top-56 -z-20 lg:top-32",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        src: "https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120",
-                                        alt: "background",
-                                        className: "hidden size-full dark:block w-full h-full object-cover"
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "hidden dark:block w-full h-full relative",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            src: "https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120",
+                                            alt: "background",
+                                            fill: true,
+                                            className: "object-cover",
+                                            priority: true
+                                        }, void 0, false, {
+                                            fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
+                                            lineNumber: 57,
+                                            columnNumber: 17
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                        lineNumber: 86,
-                                        columnNumber: 29
+                                        lineNumber: 56,
+                                        columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                    lineNumber: 59,
-                                    columnNumber: 25
+                                    lineNumber: 40,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "aria-hidden": true,
                                     className: "absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                    lineNumber: 93,
-                                    columnNumber: 25
+                                    lineNumber: 67,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "mx-auto mt-8 max-w-7xl px-6",
@@ -1762,15 +1773,15 @@ function HeroSection() {
                                                             children: "Introducing Reevio for your editing service"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                            lineNumber: 104,
-                                                            columnNumber: 41
+                                                            lineNumber: 79,
+                                                            columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "dark:border-background block h-4 w-0.5 border-l bg-white dark:bg-zinc-700"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                            lineNumber: 105,
-                                                            columnNumber: 41
+                                                            lineNumber: 82,
+                                                            columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "bg-background group-hover:bg-muted size-6 overflow-hidden rounded-full duration-500 sm:size-7",
@@ -1783,13 +1794,13 @@ function HeroSection() {
                                                                             className: "m-auto size-3 sm:ml-0"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                                            lineNumber: 110,
-                                                                            columnNumber: 53
+                                                                            lineNumber: 87,
+                                                                            columnNumber: 27
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                                        lineNumber: 109,
-                                                                        columnNumber: 49
+                                                                        lineNumber: 86,
+                                                                        columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         className: "flex size-6",
@@ -1797,35 +1808,35 @@ function HeroSection() {
                                                                             className: "m-auto size-3"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                                            lineNumber: 113,
-                                                                            columnNumber: 53
+                                                                            lineNumber: 90,
+                                                                            columnNumber: 27
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                                        lineNumber: 112,
-                                                                        columnNumber: 49
+                                                                        lineNumber: 89,
+                                                                        columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                                lineNumber: 108,
-                                                                columnNumber: 45
+                                                                lineNumber: 85,
+                                                                columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                            lineNumber: 107,
-                                                            columnNumber: 41
+                                                            lineNumber: 84,
+                                                            columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                    lineNumber: 101,
-                                                    columnNumber: 37
+                                                    lineNumber: 75,
+                                                    columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                lineNumber: 100,
-                                                columnNumber: 33
+                                                lineNumber: 74,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$components$2f$ui$2f$text$2d$effect$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TextEffect"], {
                                                 preset: "fade-in-blur",
@@ -1835,8 +1846,8 @@ function HeroSection() {
                                                 children: "Edit. Create. Captivate."
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                lineNumber: 120,
-                                                columnNumber: 33
+                                                lineNumber: 97,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$components$2f$ui$2f$text$2d$effect$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TextEffect"], {
                                                 per: "line",
@@ -1848,8 +1859,8 @@ function HeroSection() {
                                                 children: "From YouTube edits to cinematic brand films — Reevio helps creators and brands transform raw footage into scroll-stopping content."
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                lineNumber: 127,
-                                                columnNumber: 33
+                                                lineNumber: 106,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$components$2f$ui$2f$animated$2d$group$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatedGroup"], {
                                                 variants: {
@@ -1878,23 +1889,23 @@ function HeroSection() {
                                                                     children: "Contact now!"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                                    lineNumber: 158,
-                                                                    columnNumber: 49
+                                                                    lineNumber: 131,
+                                                                    columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                                lineNumber: 157,
-                                                                columnNumber: 45
+                                                                lineNumber: 130,
+                                                                columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                            lineNumber: 153,
-                                                            columnNumber: 41
+                                                            lineNumber: 129,
+                                                            columnNumber: 21
                                                         }, this)
-                                                    }, 1, false, {
+                                                    }, void 0, false, {
                                                         fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                        lineNumber: 150,
-                                                        columnNumber: 37
+                                                        lineNumber: 128,
+                                                        columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                                         asChild: true,
@@ -1908,52 +1919,52 @@ function HeroSection() {
                                                                 children: "🚀 Start Your Project"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                                lineNumber: 169,
-                                                                columnNumber: 45
+                                                                lineNumber: 138,
+                                                                columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                            lineNumber: 168,
-                                                            columnNumber: 41
+                                                            lineNumber: 137,
+                                                            columnNumber: 21
                                                         }, this)
-                                                    }, 2, false, {
+                                                    }, void 0, false, {
                                                         fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                        lineNumber: 162,
-                                                        columnNumber: 37
+                                                        lineNumber: 136,
+                                                        columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                                lineNumber: 137,
-                                                columnNumber: 33
+                                                lineNumber: 117,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                        lineNumber: 99,
-                                        columnNumber: 29
+                                        lineNumber: 73,
+                                        columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                                    lineNumber: 98,
-                                    columnNumber: 25
+                                    lineNumber: 72,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                            lineNumber: 58,
-                            columnNumber: 21
+                            lineNumber: 39,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                        lineNumber: 57,
-                        columnNumber: 17
+                        lineNumber: 38,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/OwnGigs/agency/components/hero-section.tsx",
-                lineNumber: 49,
-                columnNumber: 13
+                lineNumber: 28,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true);

@@ -65,7 +65,7 @@ export default function FAQsFour() {
                     <div className="mt-6 px-4">
                         <div className="mx-auto max-w-3xl rounded-lg border border-muted/20 bg-muted/50 dark:bg-muted/40 p-4 shadow-sm">
                             <p className="text-muted-foreground m-0 text-sm md:text-base">
-                                Can't find what you're looking for? Fill out the form —
+                                Can&apos;t find what you&apos;re looking for? Fill out the form —
                                 <Link
                                     href="/form"
                                     className="ml-5 mt-4 inline-block rounded-md bg-primary px-3 py-1 text-sm font-medium text-white hover:opacity-90">
