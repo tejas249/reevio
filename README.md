@@ -4,7 +4,7 @@
 A sleek, modern website for a video-editing agency built with Next.js, MongoDB, Tailwind CSS, ShadCN, Acertinity UI & TweakCN.
 # Reevio
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-reevio.netlify.app-blue?style=for-the-badge)](https://reevio.netlify.app)
+[![Live Demo]](https://reevio.netlify.app)
 
 A sleek, modern website for a video-editing agency built with Next.js, MongoDB, Tailwind CSS, ShadCN, Acertinity UI & TweakCN.
 
