@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+````markdown
+# Reevio
 
-## Getting Started
+A sleek, modern website for a video-editing agency built with Next.js, MongoDB, Tailwind CSS, ShadCN, Acertinity UI & TweakCN.
+# Reevio
 
-First, run the development server:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-reevio.netlify.app-blue?style=for-the-badge)](https://reevio.netlify.app)
+
+A sleek, modern website for a video-editing agency built with Next.js, MongoDB, Tailwind CSS, ShadCN, Acertinity UI & TweakCN.
+
+## 🚀 Features
+- Built on **Next.js** for fast, server-rendered React experience  
+- Backend powered by **MongoDB** for managing clients, projects & workflows  
+- UI styled with **Tailwind CSS**, enhanced by **ShadCN**, **Acertinity UI** and **TweakCN** for a polished and cohesive design  
+- Responsive, mobile-friendly, and optimized for performance  
+- A clear layout for services, pricing plans, and client workflows  
+
+## 🛠 Tech Stack
+- **Framework**: Next.js  
+- **Database**: MongoDB  
+- **Styling**: Tailwind CSS  
+- **UI Libraries**: ShadCN, Acertinity UI, TweakCN  
+- **Hosting / Deployment**: (Your preferred provider e.g., Vercel)  
+
+## 📦 Getting Started
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/tejas249/reevio.git
+   cd reevio
+````
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Set up environment variables — create a `.env.local` in the root directory and include:
+
+   ```
+   MONGODB_URI=<your MongoDB connection string>
+   NEXT_PUBLIC_SITE_URL=<your site URL>
+   ```
+
+4. Run the development server
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## ✅ Production Build
 
 ```bash
-npm run dev
+npm run build
+npm start
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn build
+yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📂 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+/app               – Next.js app directory (pages, components, layouts)  
+/lib               – Helpers, hooks and services  
+/models            – Mongoose schemas  
+/styles            – Custom Tailwind/TweakCN styling configs  
+/public            – Static assets  
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 How to Contribute
 
-## Learn More
+* Fork the repo and create a new branch (`git checkout -b feature/my-feature`)
+* Commit your changes (`git commit -m "Add some feature"`)
+* Push to the branch (`git push origin feature/my-feature`)
+* Open a Pull Request — describe your changes and any relevant context etc.
+* Ensure your code is linted and formatted before merging (e.g., `npm run lint`, `npm run format`)
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+Thank you for checking out **Reevio**! 💼 Feel free to open issues, suggest features or ideas, and contribute to building a top-notch video editing agency platform.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+::contentReference[oaicite:0]{index=0}
+```
