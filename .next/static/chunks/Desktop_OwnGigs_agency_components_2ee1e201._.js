@@ -495,7 +495,6 @@ const hasTransition = (variant)=>{
 };
 const createVariantsWithTransition = (baseVariants, transition)=>{
     if (!transition) return baseVariants;
-    // properly remove `exit` from the transition
     const { exit, ...mainTransition } = transition;
     return {
         ...baseVariants,
