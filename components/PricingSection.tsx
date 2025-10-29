@@ -45,9 +45,9 @@ const plans = [
 
 export default function PricingSection() {
   return (
-    <section className="py-10 bg-gradient-to-b from-background to-muted/40 dark:from-zinc-900 dark:to-zinc-950">
+    <section className="py-20 bg-background text-foreground">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-4xl font-bold text-purple-700 dark:text-purple-400 mb-9">
+        <h2 className="text-4xl font-bold text-primary mb-10">
           Pricing Plans
         </h2>
 
@@ -55,19 +55,17 @@ export default function PricingSection() {
           {plans.map((plan) => (
             <Card
               key={plan.name}
-              className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 shadow-lg hover:shadow-2xl hover:scale-[1.03] transition-all duration-300"
+              className="rounded-2xl border border-border bg-card text-card-foreground shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300"
             >
               <CardHeader>
-                <CardTitle className="text-2xl font-semibold text-zinc-900 dark:text-white">
+                <CardTitle className="text-2xl font-semibold">
                   {plan.name}
                 </CardTitle>
-                <p className="mt-2 text-zinc-500 dark:text-zinc-400">
-                  {plan.description}
-                </p>
+                <p className="mt-2 text-muted-foreground">{plan.description}</p>
               </CardHeader>
 
               <CardContent>
-                <h3 className="text-4xl font-bold mb-6 text-purple-700 dark:text-purple-400">
+                <h3 className="text-4xl font-bold mb-6 text-primary">
                   {plan.price}
                 </h3>
 
@@ -75,16 +73,14 @@ export default function PricingSection() {
                   {plan.features.map((feature, index) => (
                     <li key={index} className="flex items-center gap-2">
                       <Check className="h-5 w-5 text-green-500" />
-                      <span className="text-zinc-700 dark:text-zinc-300">
-                        {feature}
-                      </span>
+                      <span>{feature}</span>
                     </li>
                   ))}
                 </ul>
               </CardContent>
 
               <CardFooter className="mt-6">
-                <Button className="w-full bg-purple-600 text-white font-semibold hover:bg-purple-700 transition-all duration-300">
+                <Button className="w-full bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-300">
                   {plan.buttonText}
                 </Button>
               </CardFooter>

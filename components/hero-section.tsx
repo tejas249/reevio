@@ -15,7 +15,7 @@ export default function HeroSection() {
   return (
     <>
       <HeroHeader />
-      <main className="overflow-hidden h-screen relative">
+      <main className="overflow-hidden h-screen relative md:min-h-screen">
         {/* Background radial effects */}
         <div
           aria-hidden
@@ -30,16 +30,7 @@ export default function HeroSection() {
         <section>
           <div className="relative pt-24 md:pt-36">
             {/* Background image */}
-            <div className="hidden dark:block absolute inset-0 top-32 -z-20">
-              <Image
-                src="https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120"
-                alt="background"
-                fill
-                className="object-cover"
-                priority
-              />
-            </div>
-
+           
             {/* Radial overlay */}
             <div
               aria-hidden
@@ -86,9 +77,10 @@ export default function HeroSection() {
                   preset="fade-in-blur"
                   speedSegment={0.3}
                   as="h1"
-                  className="mx-auto flex mt-10 max-w-4xl text-balance text-5xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[5.25rem]"
+                  className="mx-auto flex mt-10 max-w-4xl text-balance text-2xl max-md:font-semibold md:text-2xl lg:mt-16 xl:text-[5.25rem]"
                 >
-                  Edit. Create. Captivate.
+                  Edit. Create.
+                   Captivate.
                 </TextEffect>
               </motion.div>
 

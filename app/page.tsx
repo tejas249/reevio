@@ -8,14 +8,12 @@ import { BackgroundLines } from "@/components/ui/background-lines";
 export default function Home() {
   return (
     <div>
-      <BackgroundLines>
-         <HeroSection/>
-       <Features/>
-       <StatsSection/>
-      <FAQsFour/>
-      <FooterSection/>
-      </BackgroundLines>
-     
+      <HeroSection />
+
+      <Features />
+      <StatsSection />
+      <FAQsFour />
+      <FooterSection />
     </div>
   );
 }
