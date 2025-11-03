@@ -716,29 +716,30 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency
 ;
 function Hero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-screen mt-10",
+        className: "mt-10 flex items-center justify-center min-h-[80vh]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "h-screen flex items-center justify-center shadow-md shadow-red-500",
+            className: "w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex items-center justify-center",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 src: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$public$2f$header$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$Desktop$2f$OwnGigs$2f$agency$2f$public$2f$header$2e$jpg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                width: 900,
-                height: 450,
-                alt: "Picture of the author",
-                className: "items-center justify-center rounded-4xl"
+                alt: "Header Image",
+                className: "rounded-3xl shadow-lg shadow-amber-200 object-cover w-3xl",
+                height: 300,
+                width: 400,
+                priority: true
             }, void 0, false, {
                 fileName: "[project]/Desktop/OwnGigs/agency/components/HeroImage.tsx",
-                lineNumber: 7,
-                columnNumber: 14
+                lineNumber: 8,
+                columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/Desktop/OwnGigs/agency/components/HeroImage.tsx",
-            lineNumber: 6,
-            columnNumber: 10
+            lineNumber: 7,
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Desktop/OwnGigs/agency/components/HeroImage.tsx",
-        lineNumber: 5,
-        columnNumber: 6
+        lineNumber: 6,
+        columnNumber: 5
     }, this);
 }
 }),
