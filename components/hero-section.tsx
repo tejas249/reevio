@@ -77,10 +77,9 @@ export default function HeroSection() {
                   preset="fade-in-blur"
                   speedSegment={0.3}
                   as="h1"
-                  className="mx-auto flex mt-10 max-w-4xl text-balance text-2xl max-md:font-semibold md:text-2xl lg:mt-16 xl:text-[5.25rem]"
+                  className="mx-auto flex justify-center mt-10 max-w-4xl text-balance text-2xl max-md:font-semibold md:text-2xl lg:mt-16 xl:text-[5.25rem]"
                 >
-                  Edit. Create.
-                   Captivate.
+                  Edit. Create. Captivate.
                 </TextEffect>
               </motion.div>
 
